@@ -1,7 +1,7 @@
 {
  "title": "Publish test (will be removed)",
  "tag": "SOV",
- "summary": "Test of one-click publishing",
+ "summary": "Updated by the same author",
  "focus": [
   {
    "type": "focus",
@@ -22,7 +22,7 @@
  "images": [],
  "icons": {},
  "author": "Elmo tool test",
- "published": "2026-11-26T11:04:42.176Z",
+ "published": "2026-11-26T11:04:48.951Z",
  "publisher": {
   "id": "sov-publish-test-will-be-removed-ded537",
   "keyHash": "2c170e71d419014049f4252bf5b899c1b6ddbdb66a3ef8333366bfcf6f7fd127"
