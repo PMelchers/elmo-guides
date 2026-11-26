@@ -1,0 +1,6 @@
+{
+  "name": "elmo-guide-publisher",
+  "private": true,
+  "description": "Publishes Elmo tool guides into the marketplace repository on GitHub.",
+  "engines": { "node": ">=20" }
+}

@@ -46,7 +46,7 @@ def main():
             if not isinstance(g, dict) or not isinstance(g.get('focus'), list):
                 problems.append(f'{name}: entry {i} is not an Elmo tool guide')
                 continue
-            author = git('log', '-1', '--format=%an', '--', f'guides/{name}') or 'unknown'
+            author = text(g.get('author'), 60) or git('log', '-1', '--format=%an', '--', f'guides/{name}') or 'unknown'
             updated = git('log', '-1', '--format=%cI', '--', f'guides/{name}') or datetime.now(timezone.utc).isoformat()
             entries.append({
                 'file': f'guides/{name}',
