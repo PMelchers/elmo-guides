@@ -23,3 +23,14 @@ Updating your guide works the same way: upload a file with the same name.
 
 `tools/build_index.py` rebuilds `index.json` automatically (GitHub Actions) whenever something in `guides/` changes.
 Check pull requests before merging them: a guide is plain data, but you decide what appears for everyone.
+
+## One-click publishing (publishing service)
+
+`publisher/` is a tiny Vercel function: the app sends a guide to it and it writes the guide into `guides/`, so people need no GitHub account.
+
+1. On vercel.com: **Add New → Project → Import** this repository, set **Root Directory** to `publisher`, deploy.
+2. On GitHub: **Settings → Developer settings → Fine-grained tokens → Generate new token**, repository access **Only this repository**, permissions **Contents: Read and write** (and **Pull requests: Read and write** if you want review mode).
+3. In the Vercel project: **Settings → Environment Variables**, add `GITHUB_TOKEN` with that token, then **Redeploy**.
+4. Put `https://<your-project>.vercel.app/api/publish` as `publishUrl` in Elmo tool's `js/market-config.js`.
+
+`PUBLISH_MODE=review` (environment variable) turns every publish into a pull request you approve instead of appearing right away.
