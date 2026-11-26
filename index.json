@@ -1,24 +1,5 @@
 {
  "version": 1,
- "generated": "2026-11-26T11:04:57.578628+00:00",
- "guides": [
-  {
-   "file": "guides/sov-publish-test-will-be-removed-ded537.json",
-   "index": 0,
-   "title": "Publish test (will be removed)",
-   "tag": "SOV",
-   "summary": "Updated by the same author",
-   "author": "Elmo tool test",
-   "updated": "2026-11-26T12:04:49+01:00",
-   "size": 566,
-   "counts": {
-    "focus": 1,
-    "tanks": 0,
-    "ships": 0,
-    "templates": 0,
-    "images": 0,
-    "text": 1
-   }
-  }
- ]
+ "generated": "2026-11-26T11:08:02.125304+00:00",
+ "guides": []
 }
