@@ -1,5 +1,24 @@
 {
  "version": 1,
- "generated": "2026-11-26T11:09:02.897795+00:00",
- "guides": []
+ "generated": "2026-11-26T11:59:02.253727+00:00",
+ "guides": [
+  {
+   "file": "guides/sov-russia-guide-3f6146.json",
+   "index": 0,
+   "title": "Russia guide",
+   "tag": "SOV",
+   "summary": "",
+   "author": "ElmoMan",
+   "updated": "2026-11-26T12:58:53+01:00",
+   "size": 144355,
+   "counts": {
+    "focus": 6,
+    "tanks": 1,
+    "ships": 1,
+    "templates": 1,
+    "images": 0,
+    "text": 0
+   }
+  }
+ ]
 }
